@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-06 16:30:08.697966",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "service_center",
+  "counter",
+  "customer",
+  "status",
+  "priority",
+  "created_at",
+  "assigned_at",
+  "served_at",
+  "estimated_wait",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "service_center",
+   "fieldtype": "Link",
+   "label": "Service Center",
+   "options": "Service Center"
+  },
+  {
+   "fieldname": "counter",
+   "fieldtype": "Link",
+   "label": "Counter",
+   "options": "Counter"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Created\nWaiting\nServing\nCompleted\nCancelled\nAbandoned"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "label": "Priority"
+  },
+  {
+   "fieldname": "created_at",
+   "fieldtype": "Datetime",
+   "label": "Created_At"
+  },
+  {
+   "fieldname": "assigned_at",
+   "fieldtype": "Datetime",
+   "label": "Assigned_At"
+  },
+  {
+   "fieldname": "served_at",
+   "fieldtype": "Datetime",
+   "label": "Served_At"
+  },
+  {
+   "fieldname": "estimated_wait",
+   "fieldtype": "Float",
+   "label": "Estimated_Wait",
+   "options": "minutes"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-06 18:46:45.999388",
+ "modified_by": "Administrator",
+ "module": "Queue Management",
+ "name": "Queue Token",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

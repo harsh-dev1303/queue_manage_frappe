@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-06 16:22:33.945253",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "service_center",
+  "name1",
+  "status",
+  "current_token",
+  "staff_in_charge"
+ ],
+ "fields": [
+  {
+   "fieldname": "service_center",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Service Center",
+   "options": "Service Center"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active\nPaused\nClosed"
+  },
+  {
+   "fieldname": "current_token",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Current_token",
+   "options": "Queue Token"
+  },
+  {
+   "fieldname": "staff_in_charge",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Staff_In_Charge",
+   "options": "Staff"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-06 18:28:19.038684",
+ "modified_by": "Administrator",
+ "module": "Queue Management",
+ "name": "Counter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
