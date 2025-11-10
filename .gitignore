@@ -1,3 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Frappe build artifacts
+/node_modules
+/public/js/dist
+/public/css/dist
+*.log
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# Bench related
+*.egg-info
+*.bench/
 .DS_Store
 *.pyc
 *.egg-info

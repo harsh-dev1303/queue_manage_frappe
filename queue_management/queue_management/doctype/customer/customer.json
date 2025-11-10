@@ -50,7 +50,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-06 18:35:40.026946",
+ "modified": "2025-11-10 15:19:39.702362",
  "modified_by": "Administrator",
  "module": "Queue Management",
  "name": "Customer",
@@ -71,7 +71,9 @@
  ],
  "row_format": "Dynamic",
  "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "name1"
 }
